@@ -1,0 +1,104 @@
+.Coffee {
+    display: flex;
+    background: rgb(59, 54, 52);
+    background: linear-gradient(137deg, rgba(59, 54, 52, 1) 0%, rgba(41, 37, 36, 1) 38%, rgba(33, 30, 29, 1) 82%);
+    flex-direction: column;
+    align-items: center;
+    color: VAR(--white);
+    padding: 2rem;
+    padding-top: 2rem;
+}
+
+.Coffee h1 {
+    color: var(--white);
+    font-size: 4rem;
+    letter-spacing: 0.5rem;
+    margin: 0;
+    text-decoration: underline dashed 0.5rem var(--light-brown);
+    text-underline-offset: 1rem;
+}
+
+.coffee-page {
+    display: flex;
+    justify-content: center;
+}
+
+/*left side of page*/
+.coffee-left {
+    width: 30%;
+}
+
+.coffee-left h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.coffee-left button {
+    background-color: var(--light-brown);
+    border-radius: 50px;
+    border: 5px solid var(--light-brown);
+    padding: 5px 20px;
+    transition: 200ms;
+}
+
+.coffee-left button:hover {
+    transform: scale(1.1);
+    text-decoration: underline 2px var(--light-brown);
+    text-underline-offset: 3px;
+}
+
+.coffee-left a {
+    font-weight: 700;
+    color: inherit;
+    color: var(--white);
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.coffee-options img {
+    width: 8rem;
+}
+
+.coffee-options {
+    margin-bottom: 1rem;
+}
+
+.menu-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Central Image*/
+.coffee-mid {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.coffee-mid img {
+    width: 100%;
+}
+
+/*right side of page*/
+.coffee-right {
+    width: 30%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.coffee-right h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.coffee-right p {
+    text-align: end;
+    margin: 1rem;
+    margin-right: 0;
+}
+
+.coffee-right img {
+    width: 60%;
+}

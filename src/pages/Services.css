@@ -1,0 +1,144 @@
+.Services {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+}
+
+/*Main Banner*/
+.services-banner {
+    height: 300px;
+    background: rgb(144, 79, 61);
+    background: linear-gradient(221deg, rgba(144, 79, 61, 1) 12%, rgba(99, 55, 44, 1) 49%, rgba(65, 36, 30, 1) 85%);
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7rem;
+    border-bottom: 0.5rem solid var(--light-brown);
+}
+
+.services-banner h1 {
+    font-weight: 800;
+    text-decoration: underline dotted 0.3rem var(--light-brown);
+    text-underline-offset: 0.5rem;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.services-banner p {
+    color: var(--white);
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+/*Shops and Restaurants Cards*/
+.shops-restaurants {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+/*Shop card*/
+/*Restaurant card*/
+.card {
+    box-shadow: 5px 5px 0px 0px var(--brown);
+    background-color: white;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.card h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0.5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Aladin', cursive;
+}
+
+.card img {
+    margin-top: 1rem;
+    width: 80%;
+    height: 60%;
+}
+
+/*Baking Lessons*/
+.baking-lessons {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-self: center;
+    border-top: 10px dashed var(--black);
+    border-bottom: 10px dashed var(--black);
+    padding: 2rem;
+}
+
+.baking-lessons h2 {
+    font-family: 'Aladin', cursive;
+    color: var(--brown);
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.baking-lessons-card {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lessons {
+    width: 30%;
+    height: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 20px;
+}
+
+.lessons h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+/* Bakery Takeaway*/
+.bakery-takeaway {
+    margin-top: 2rem;
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bakery-takeaway img {
+    width: 40%;
+}
+
+.call-option {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.call-option h3 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.call-option h4 {
+    font-size: 2rem;
+    margin: 0;
+    color: var(--brown);
+}
